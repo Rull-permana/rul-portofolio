@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .section {
+            padding: 20px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .section h2 {
+            color: #333;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .project {
+            background: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33.333% - 20px);
+            box-sizing: border-box;
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portofolio Saya</h1>
+        <nav>
+            <a href="#about">Tentang Saya</a>
+            <a href="#projects">Proyek</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>Tentang Saya</h2>
+            <p>Halo, saya [Nama Anda], seorang siswa SMK jurusan Pengembangan Perangkat Lunak dan Gim. Saya memiliki ketertarikan dalam pengembangan perangkat lunak dan pembuatan gim. Saya telah mengerjakan beberapa proyek yang melibatkan berbagai teknologi dan bahasa pemrograman. Berikut adalah beberapa proyek yang telah saya kerjakan.</p>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Proyek</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Proyek 1</h3>
+                    <p>Deskripsi singkat tentang proyek 1. Misalnya, aplikasi web yang dibuat dengan HTML, CSS, dan JavaScript.</p>
+                </div>
+                <div class="project">
+                    <h3>Proyek 2</h3>
+                    <p>Deskripsi singkat tentang proyek 2. Misalnya, game sederhana yang dibuat menggunakan Unity atau alat pengembangan lainnya.</p>
+                </div>
+                <div class="project">
+                    <h3>Proyek 3</h3>
+                    <p>Deskripsi singkat tentang proyek 3. Misalnya, aplikasi desktop yang dibangun dengan Python dan Tkinter.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Kontak</h2>
+            <p>Jika Anda ingin menghubungi saya, silakan kirim email ke <a href="mailto:email@domain.com">email@domain.com</a> atau hubungi saya melalui media sosial berikut:</p>
+            <ul>
+                <li><a href="https://twitter.com/username" target="_blank">Twitter</a></li>
+                <li><a href="https://linkedin.com/in/username" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/username" target="_blank">GitHub</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Portofolio Saya. Semua hak cipta dilindungi.</p>
+    </footer>
+</body>
+</html>
